@@ -1,0 +1,119 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for body and font */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header section */
+.header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-top h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.header-top p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.contact-info p {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #888;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #007b8f;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fafafa;
+    padding: 40px 0;
+}
+
+.hero-content {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    width: 90%;
+}
+
+.quote h2 {
+    font-size: 2em;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.quote p {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007b8f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Products Introduction Section */
+.products {
+    background-color: #e9f4f6;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.products h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.products p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.products .btn {
+    background-color: #007b8f;
+    color: #fff;
+}
